@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier \"src/**/*.{ts,tsx,js,jsx,css,html}\" --write",
-    "check": "prettier \"src/**/*.{ts,tsx,js,jsx,css,html}\" --check"
+    "format": "prettier \"./**/*.{ts,tsx,js,jsx,css,html}\" --write",
+    "check": "prettier \"./**/*.{ts,tsx,js,jsx,css,html}\" --check"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.0.2",
