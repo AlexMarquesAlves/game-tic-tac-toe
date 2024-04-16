@@ -14,7 +14,7 @@ const compat = new FlatCompat({
 });
 
 export default [
-  { files: ["**/*.js"], ignores: ["**/*.config.js"],  },
+  { files: ["**/*.js"], ignores: ["**/*.config.js"] },
   {
     languageOptions: {
       globals: { ...globals.browser, ...globals.node, ...globals.es2020 },
