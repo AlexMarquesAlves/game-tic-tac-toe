@@ -5,7 +5,15 @@ export const tic_tac_toe = {
 
   init: function (container) {
     this.containerElement = container;
-  }
+  },
+
+  draw: function () {
+    let content = "";
+
+    for (i in this.board) {
+      content += "<div>" + i + "</div>";
+    }
 
 
+  },
 };
