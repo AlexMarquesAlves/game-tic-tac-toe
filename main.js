@@ -1,5 +1,5 @@
 import "./style.css";
-import { setupCounter } from "./tic-tac-toe.js";
+import { tic_tac_toe } from "./tic-tac-toe.js";
 
 document.querySelector("#app").innerHTML = `
   <div class"game">
@@ -7,4 +7,4 @@ document.querySelector("#app").innerHTML = `
   </div>
 `;
 
-setupCounter(document.querySelector("#counter"));
+tic_tac_toe(document.querySelector("#app"));
