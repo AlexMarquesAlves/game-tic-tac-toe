@@ -14,6 +14,6 @@ export const tic_tac_toe = {
       content += "<div>" + i + "</div>";
     }
 
-
+    this.containerElement.innerHTML = content;
   },
 };
