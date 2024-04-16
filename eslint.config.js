@@ -14,13 +14,12 @@ const compat = new FlatCompat({
 });
 
 export default [
-  { files: ["**/*.js"], languageOptions: { sourceType: "commonjs" } },
+  { files: ["**/*.js"], ignores: ["**/*.config.js"],  },
   {
     languageOptions: {
       globals: { ...globals.browser, ...globals.node, ...globals.es2020 },
     },
   },
-  { plugin: "prettier" },
 
-  ...compat.extends("airbnb-base"),
+  ...compat.extends("prettier"),
 ];
